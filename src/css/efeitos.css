@@ -1,0 +1,18 @@
+/* Faz o usuario ter que colocar o email em vez de alguma coisa aleatoria*/
+input[type=email]:invalid{
+    background: rgb(255, 255, 254);
+}
+input[type=email]:valid{
+    background: green;
+}
+
+/* Faz o usuario ter que preencher o campo obrigatorio */
+input:required{
+    background: rgb(240, 245, 169);
+}
+
+/* Muda a cor do texto quando o usuario seleciona o texto */
+p::selection{
+    color: rgb(255, 255, 255);
+    background: rgb(48, 66, 233);
+}
