@@ -114,6 +114,17 @@ label {
     font-weight: bold;
     padding: 20px;
 }
+.img-tabela {
+    width: 250px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
 
+.img-tabela:hover {
+    transform: scale(1.15); /* Cresce 15% */
+}
 
+article {
+    overflow: hidden;
+}
 
