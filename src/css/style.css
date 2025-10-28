@@ -127,3 +127,37 @@ label {
 article {
     overflow: hidden;
 }
+
+footer {
+    text-align: center;
+    padding-bottom: 3vh;
+    background-color: #3a2424;
+    padding-top: 3vh;
+}
+
+footer a img {
+    height: 20px;
+    width: auto;
+}
+
+div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente os itens */
+    gap: 8vw;
+    align-items: center;
+}
+
+div ul li {
+    display: block;
+    background-color: #5a2a2a;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+div ul li a {
+    color: #f5e6d3;
+    text-decoration: none;
+}
