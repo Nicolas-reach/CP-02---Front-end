@@ -166,3 +166,7 @@ div ul li:hover {
     background-color: #7a3a3a;
     transition: background-color 0.2s ease;
 }
+
+div ul li:active {
+    background-color: #9a4a4a;
+}
