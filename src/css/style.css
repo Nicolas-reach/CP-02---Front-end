@@ -161,3 +161,8 @@ div ul li a {
     color: #f5e6d3;
     text-decoration: none;
 }
+
+div ul li:hover {
+    background-color: #7a3a3a;
+    transition: background-color 0.2s ease;
+}
