@@ -38,7 +38,7 @@ O site é composto pelas seguintes páginas:
 
 ##  Link para o site publicado
 Acesse o projeto online no GitHub Pages:  
-👉 [Vinheria Agnello - GitHub Pages](https://github.com/Nicolas-reach/CP-02---Front-end)
+👉 [Vinheria Agnello - GitHub Pages](https://nicolas-reach.github.io/CP-02---Front-end/)
 
 ---
 
