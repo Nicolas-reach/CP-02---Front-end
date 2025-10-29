@@ -1,69 +1,71 @@
-# CP-02---Front-end
-
-# Vinheria Agnello
-
-# Vinheria Agnello
-
-## Contexto do projeto
-A **Vinheria Agnello** é uma vinícola tradicional que decidiu expandir seus negócios para o ambiente digital.  
-O objetivo deste projeto é desenvolver um **site institucional e de e-commerce** para apresentar seus produtos, contar sua história e aproximar os clientes da marca.
-
-## História
-Em decorrência da pandemia, o movimento da Vinheria Agnello sofreu um impacto significativo, devido às restrições de mobilidade de seus compradores.  
-Muitos clientes migraram para lojas online, o que afetou diretamente os negócios.  
-
-O proprietário, Sr. Giulio, sempre manteve uma gestão tradicional e conservadora, resistindo à ideia de adotar o e-commerce por considerá-lo um meio “frio” e distante do cliente.  
-No entanto, buscando minimizar os impactos negativos, Giulio decidiu ouvir os conselhos de sua filha Bianca e seguir com o desenvolvimento de um portal digital.
-
-Após pesquisar o mercado, Bianca recebeu inúmeras indicações de nossa empresa como a ideal para desenvolver o portal de e-commerce com a identidade da Vinheria Agnello, graças à nossa preocupação com a experiência do usuário como principal fator de sucesso.
-
----
-
 ## A Vinheria
-A Vinheria Agnello é uma empresa familiar, dirigida por Giulio e sua filha Bianca, que atua há mais de 15 anos com uma loja física.  
-A equipe conta com mais de 6 funcionários entre administração, estoques e vendas.
-
----
-
-## Clientes
-Apesar de atender clientes experientes e conhecedores de vinho, a maior parte do público consumidor é formada por pessoas iniciantes ou com pouco conhecimento, que dependem de orientação na hora de escolher o vinho certo.
+A Vinheria Agnello é uma empresa familiar, com mais de **15 anos de história**, administrada por Giulio e Bianca.  
+Atende tanto especialistas em vinhos quanto iniciantes, oferecendo atendimento personalizado e curadoria de produtos.
 
 ---
 
 ## Objetivos
-- Desenvolver uma solução de **e-commerce** que mantenha o padrão de atendimento da loja física.  
-- Criar um portal que ofereça **experiência acolhedora e personalizada** ao usuário.  
-- Facilitar a jornada de compra tanto para iniciantes quanto para apreciadores mais experientes.
-
----
-
-## Dores
-- Dificuldade em replicar a **experiência de atendimento humano** no ambiente digital.  
-- Necessidade de **orientação clara** para clientes iniciantes.   
+- Desenvolver um **site moderno e funcional**, com foco na experiência do usuário.  
+- Reforçar a **identidade visual elegante e acolhedora** da marca.  
+- Facilitar a **navegação e o contato** com os clientes.  
+- Criar um ambiente digital que mantenha a **tradição e sofisticação** da vinheria.
 
 ---
 
 ## Estrutura do Projeto
+
 O site é composto pelas seguintes páginas:
 
-- **`index.html`** – Página inicial com apresentação da Vinheria Agnello.  
-- **`vinhos.html`** – Catálogo de vinhos com descrições e valores.  
-- **`sobre.html`** – História da Vinheria e descrição.  
-- **`contato.html`** – Formulário de contato, endereço e redes sociais.  
-- **`assets/`** – Pasta com imagens usadas no site.
-- **`style.css`** -estilo do site em CSS.
+- **`index.html`** – Página inicial com destaque para os vinhos e identidade da marca.  
+- **`produtos.html`** – Catálogo de produtos, com imagens, descrições e valores.  
+- **`sobre.html`** – História e tradição da Vinheria Agnello.  
+- **`contato.html`** – Página com formulário de contato e redes sociais.  
+- **`assets/imgs`** – Pasta com imagens e ícones utilizados no site.  
+- **`style.css`** – Folha de estilo principal.
+- **`equipe.css`** - Arquivo de estilo para a pagina da equipe. 
+- **`efeitos.css`** – Arquivo de efeitos visuais, transições e animações.  
 
 ---
 
-## 👥Integrantes do Projeto
-- Alexandre Constantino Furtado Junior
-- Enrico Dellatorre da Fonseca
-- Leonardo Batista de Souza
-- Matheus Freitas dos Santos
-- Nicolas Forcione de Oliveira e Souza 
+##  Integrantes do Projeto
+- **Nicolas Forcione de Oliveira e Souza** – RM566998  
+- **Alexandre Constantino Furtado Junior** – RM567188  
+- **Enrico Dellatorre da Fonseca** – RM566824  
+- **Leonardo Batista de Souza** – RM568558  
+- **Matheus Freitas dos Santos** – RM567337  
 
 ---
 
- Link para o site publicado
-Acesse o site no GitHub Pages:  
-[Vinharia Agnello - GitHub Pages](https://github.com/Nicolas-reach/CP-02---Front-end)
+##  Link para o site publicado
+Acesse o projeto online no GitHub Pages:  
+👉 [Vinheria Agnello - GitHub Pages](https://github.com/Nicolas-reach/CP-02---Front-end)
+
+---
+
+## Efeitos Visuais (CSS Avançado)
+
+O projeto utiliza **recursos avançados de CSS** para aprimorar a experiência visual e interativa do usuário, com foco na **elegância e fluidez** da navegação.
+
+### Pseudo-classes utilizadas:
+- `:hover` — muda a cor de botões e menus quando o usuário passa o mouse.  
+- `:focus` — destaca campos de formulário selecionados.  
+- `:valid` e `:invalid` — validam automaticamente o campo de e-mail.  
+- `:required` — aplica destaque a campos obrigatórios.  
+- `:active` — altera a cor de botões clicados.  
+- `:nth-child(3)` — destaca a página atual no menu de navegação.  
+
+### Pseudo-elementos aplicados:
+- `::before` — adiciona um **ícone 🍷** antes dos títulos `<h2>`.  
+- `::after` — cria uma **linha decorativa** sob os títulos principais.  
+- `::selection` — muda a cor do texto selecionado pelo usuário.
+
+### Animações e Transições:
+- **`@keyframes aparecer`** — animação suave aplicada aos títulos `<h2>`, que surgem de forma elegante com leve transição vertical.  
+- **Transições (`transition`)** — usadas em imagens, botões e campos interativos para suavizar efeitos de `hover` e `focus`.  
+- **Transformações (`transform`)** — aplicadas com `scale()` para criar efeitos de zoom e destaque visual.
+
+### Arquivo de Efeitos:
+Todos os efeitos visuais estão organizados no arquivo:  
+📁 **`efeitos.css`**, que é importado no HTML principal através da tag:  
+```html
+<link rel="stylesheet" href="efeitos.css">
