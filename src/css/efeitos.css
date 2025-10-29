@@ -11,6 +11,13 @@ input:required{
     background: rgb(240, 245, 169);
 }
 
+/* Foco nos campos */
+input:focus, textarea:focus{
+    outline: 3px solid rgb(48, 66, 233);
+    transform: scale(1,02);
+    transition: transform 0.2s ease, outline 0.2s ease;
+}
+
 /* Muda a cor do texto quando o usuario seleciona o texto */
 p::selection{
     color: rgb(255, 255, 255);
