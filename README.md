@@ -45,8 +45,9 @@ O site é composto pelas seguintes páginas:
 - **`vinhos.html`** – Catálogo de vinhos com descrições e valores.  
 - **`sobre.html`** – História da Vinheria e descrição.  
 - **`contato.html`** – Formulário de contato, endereço e redes sociais.  
-- **`assets/`** – Pasta com imagens usadas no site.
-- **`style.css`** -estilo do site em CSS.
+- **`assets/imgs`** – Pasta com imagens usadas no site.
+- **`css`** - Pasta contendo as páginas de estilos e efeitos css.
+- **`efeitos.css`** - ...
 
 ---
 
