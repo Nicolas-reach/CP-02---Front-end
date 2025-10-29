@@ -97,20 +97,31 @@ label {
     max-width: 100%;
 }
 
+.card {
+    max-width: 250px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #7a3a3a;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    border-color: #a80000;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+
 .img-tabela {
-    width: 140px;
-    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
-.tabela-vinhos {
-    margin: 0 auto;
-    text-align: center;
+.card:hover .img-tabela {
+    transform: scale(1.05);
 }
 
-.titulo-vinhos h2 {
-    font-size: 28px;
-    color: #c7a76c;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
-}
