@@ -1,16 +1,27 @@
-# CP-02---Front-end
-# Vinheria Agnello
+🍷 Vinheria Agnello — Front-end (CP-02)
+📝 Descrição do Projeto
 
-## Descrição do Projeto
-A **Vinheria Agnello** é uma vinícola tradicional que decidiu expandir seus negócios para o ambiente digital.  
-O objetivo deste projeto é desenvolver um **site institucional e de e-commerce** para apresentar seus produtos, contar sua história e aproximar os clientes da marca.  
+A Vinheria Agnello é uma vinícola tradicional que decidiu expandir sua presença para o ambiente digital.
+O objetivo deste projeto é o desenvolvimento de um site institucional e e-commerce, permitindo apresentar os produtos da marca, contar sua história e criar uma conexão mais próxima com seus clientes.
 
-Este trabalho faz parte da **continuação do Checkpoint 01**, agora aprimorado com foco em **estilização avançada** utilizando recursos visuais modernos em CSS, como pseudo-classes, pseudo-elementos, animações, transições e transformações.
+Este trabalho é a continuação do Checkpoint 01, agora aprimorado com foco em estilização avançada e experiência do usuário, utilizando técnicas modernas de CSS, como:
 
----
-## Integrantes do Projeto
-- Nicolas Forcione de Oliveira e Souza 
-- Enrico Dellatorre da Fonseca
-- Alexandre Constantino Furtado Junior
-- Leonardo Batista de Souza
-- Matheus Freitas dos Santos
+Pseudo-classes e pseudo-elementos
+
+Animações e transições
+
+Transformações visuais
+
+Layouts responsivos e interativos
+
+👥 Integrantes do Projeto
+
+Nicolas Forcione de Oliveira e Souza
+
+Enrico Dellatorre da Fonseca
+
+Alexandre Constantino Furtado Junior
+
+Leonardo Batista de Souza
+
+Matheus Freitas dos Santos
