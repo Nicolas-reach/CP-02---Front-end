@@ -124,6 +124,8 @@ label {
     transform: scale(1.15);
 }
 
+}
+
 article {
     overflow: hidden;
 }
@@ -169,4 +171,19 @@ div ul li:hover {
 
 div ul li:active {
     background-color: #9a4a4a;
+}
+
+body.sobre nav ul li:nth-child(3) a{
+    font-weight: bold;
+    color: darkred;
+}
+
+body.produto nav ul li:nth-child(3) a{
+    font-weight: bold;
+    color: darkred;
+}
+
+body.inicio nav ul li:nth-child(3) a{
+    font-weight: bold;
+    color: darkred;
 }
