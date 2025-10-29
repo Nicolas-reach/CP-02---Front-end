@@ -28,3 +28,110 @@ body.contato nav ul li:nth-child(3) a{
     font-weight: bold;
     color: darkred;
 }
+
+.img-tabela {
+    width: 250px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.img-tabela:hover {
+    transform: scale(1.15);
+}
+
+
+article {
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 3vh;
+    background-color: #3a2424;
+    padding-top: 3vh;
+}
+
+
+footer a img {
+    height: 20px;
+    width: auto;
+}
+
+div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente os itens */
+    gap: 8vw;
+    align-items: center;
+}
+
+div ul li {
+    display: block;
+    background-color: #5a2a2a;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+div ul li a {
+    color: #f5e6d3;
+    text-decoration: none;
+}
+
+div ul li:hover {
+    background-color: #7a3a3a;
+    transition: background-color 0.2s ease;
+}
+
+div ul li:active {
+    background-color: #9a4a4a;
+}
+
+body.sobre nav ul li:nth-child(3) a{
+    font-weight: bold;
+    color: darkred;
+}
+
+body.produto nav ul li:nth-child(3) a{
+    font-weight: bold;
+    color: darkred;
+}
+
+body.inicio nav ul li:nth-child(3) a{
+    font-weight: bold;
+    color: darkred;
+}
+
+h2::after {
+  content: ""; /* Adiciona uma linha decorativa abaixo do título */ 
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: darkred;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+h2::before {
+  content: "🍷 "; /* Adiciona um ícone de vinho antes do título */
+  font-size: 1.2em;
+  color: darkred;
+}
+
+/* Aplica a animação nos títulos principais */
+h2 {
+  animation: aparecer 1.5s ease-out;
+}
+
+/* Animação suave para o título*/
+@keyframes aparecer { 
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
